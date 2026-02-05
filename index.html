@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akram | Personal Website</title>
+  <!-- CSS -->
+  <meta name="description"
+    content="Portfolio of Akram - A Computer Science Student and Web Developer specialized in building modern, responsive websites.">
+  <meta name="keywords" content="Akram, Web Developer, Computer Science, Portfolio, Java, C++, AI, Frontend">
+  <meta name="author" content="Akram">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Akram | Personal Website">
+  <meta property="og:description"
+    content="Welcome to my personal portfolio. Check out my projects and skills in Web Development and CS.">
+  <meta property="og:type" content="website">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Scroll Progress -->
+  <div class="progress-bars-container">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <nav class="nav">
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button id="themeToggle">Dark Mode</button>
+  </nav>
+
+  <main class="container">
+
+    <header class="hero">
+      <h1 class="hero-title">Akram</h1>
+      <div class="hero-img-container">
+        <img src="profille.jpg" alt="akram" class="avatar">
+      </div>
+      <p class="subtitle">Web Developer in Progress 🚀</p>
+    </header>
+
+    <section class="card" id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m Akram, I'm a computer science student (AI) and a web developer and I'm building projects step by step.
+        Passionate about technology, discipline, and self-improvement.
+      </p>
+    </section>
+
+    <section class="card" id="projects">
+      <h2>Projects</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <h3>Personal Portfolio Website</h3>
+          <p>
+            Responsive personal website with dark mode, smooth scrolling,
+            and modern UI using HTML, CSS, and JavaScript.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/akram378/akram-bio" target="_blank">GitHub</a>
+            <a href="https://akram378.github.io/akram-bio/" target="_blank">Live</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Student Management System (Java)</h3>
+          <p>
+            Console-based Java application using OOP principles to manage
+            students, grades, and records.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Algorithms Practice (C++)</h3>
+          <p>
+            Data structures and algorithms practice in C++ focusing on
+            problem solving and efficiency.
+          </p>
+          <div class="project-links">
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="card" id="skills">
+      <h2>Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <ul>
+            <li>Java</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Web Development</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git & GitHub</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3>Computer Science</h3>
+          <ul>
+            <li>Data Structures</li>
+            <li>Algorithms</li>
+            <li>OOP</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Education</h2>
+      <div class="edu">
+        <h3>Bachelor in Computer Science</h3>
+        <p>
+          Computer Science Student<br>
+          Focus on programming, algorithms, and software development.
+        </p>
+        <span class="year">2023 – Present</span>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Experience & Learning</h2>
+      <ul class="cs-list">
+        <li>Building web projects using HTML, CSS, and JavaScript</li>
+        <li>Solving programming problems using Java and C++</li>
+        <li>Practicing Object-Oriented Programming</li>
+        <li>Using Git & GitHub for version control</li>
+        <li>Self-learning through projects and documentation</li>
+      </ul>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Find Me</h2>
+      <div class="links">
+        <a href="https://github.com/akram378" target="_blank">GitHub</a>
+        <a href="https://www.instagram.com/_a_kre_m_/" target="_blank">Instagram</a>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Akram. All rights reserved.
+    </footer>
+
+  </main>
+
+  <!-- GSAP Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
